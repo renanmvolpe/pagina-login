@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Lora', serif;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 70%;
+    align-items: center;
+    margin: auto;
+}
+
+.login img {
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+.info-login {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.info-login h2 {
+    color: #508dcc;
+    font-size: 22pt;
+}
+
+.linha {
+    border-top: .2rem solid #508dcc;
+    width: 7rem;
+    margin-top: .5rem;
+}
+
+.e-mail {
+    padding: 1.5rem 1rem;
+    width: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: .15rem solid #f2f2f2;
+    outline: 0;
+    font-size: 12pt;
+    font-family: 'Lora', serif;
+}
+
+.e-mail:hover {
+    border-bottom: .15rem solid #508dcc;
+}
+
+.senha {
+    padding: 1.5rem 1rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: .15rem solid #f2f2f2;
+    outline: 0;
+    font-size: 12pt;
+    font-family: 'Lora', serif;
+}
+
+.senha:hover {
+    border-bottom: .15rem solid #508dcc;
+}
+
+input::placeholder {
+    color: #a3d0fa;
+}
+
+.botao-entrar {
+    padding: 1.5rem 1rem;
+    width: 18rem;
+    margin-top: .8rem;
+    position: relative;
+    
+    background-color: #508dcc;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.botao-entrar:hover {
+    opacity: 90%;
+}
+
+.esqueceu-senha {
+    color: #284191;
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
